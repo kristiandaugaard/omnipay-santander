@@ -1,5 +1,5 @@
 {
-	"name": "lundco/omnipay-quickpay",
+	"name": "kristiandaugaard/omnipay-santander",
 	"type": "library",
 	"description": "Santander driver for the Omnipay payment library",
 	"keywords": [
