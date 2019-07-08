@@ -1,0 +1,30 @@
+{
+	"name": "lundco/omnipay-quickpay",
+	"type": "library",
+	"description": "Santander driver for the Omnipay payment library",
+	"keywords": [
+		"gateway",
+		"merchant",
+		"omnipay",
+		"pay",
+		"payment",
+		"quickpay"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "kristian daugaard",
+			"email": "hej@kristiandaugaard.dk"
+		}
+	],
+	"autoload": {
+		"psr-4": { "Omnipay\\Quickpay\\" : "src/" }
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"omnipay/common": "~2.0"
+	},
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    }
+}
